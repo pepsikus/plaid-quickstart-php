@@ -13,7 +13,7 @@ This is a PHP & [Slim][2] port of the official [Quickstart][3] application.
 
 ## Install
 ```console
-$ composer require pepsikus/plaid-quickstart-php
+$ git clone https://github.com/pepsikus/plaid-quickstart-php.git
 ```
 
 ## Documentation
