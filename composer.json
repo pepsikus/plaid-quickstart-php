@@ -1,0 +1,25 @@
+{
+	"name": "pepsikus/plaid-quickstart-php",
+	"description": "Simple PHP application for Plaid API testing.",
+	"keywords": ["plaid", "plaid api", "virtual store", "store", "php"],
+	"minimum-stability": "dev",
+	"license": "MIT",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Stanislav Ilnitskij",
+			"email": "pepsikus74@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/pepsikus/plaid-quickstart-php/issues",
+		"source": "https://github.com/pepsikus/plaid-quickstart-php"
+	},
+    "require": {
+        "slim/slim": "^3.11",
+        "slim/php-view": "^2.2",
+        "bryanjhv/slim-session": "^3.6",
+        "monolog/monolog": "^1.23",
+        "dpods/plaid-api-php-client": "dev-master"
+    }
+}
